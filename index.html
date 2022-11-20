@@ -7,18 +7,18 @@
   <title>HTML Sample Project</title>
 
 </head>
-<body background="/images/kevin-delval-1k6M-wP19g8-unsplash.jpg">
-  <header>
-    <h2>My Web</h2>
+<body background="/images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg">
 
+  <header>
+    <h2>My Website</h2>
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Our Services and Goals</a></li>
         <li><a href="#contact">Contact Us</a></li>
       </ul>
     </nav>
-
   </header>
 
   <main>
@@ -28,35 +28,92 @@
         <h1>WELCOME TO MY SIMPLE WEBSITE USING HTML ONLY</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum velit ad explicabo quae cumque accusamus nostrum numquam sequi sint magni iste voluptate, cupiditate tempore repudiandae eaque! Commodi ullam doloremque ex?</p>
       </div>
+    </section><hr>
 
+
+    <section>
       <div>
-        <h2 id="about">About</h2>
-
-        <h3>Article One</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci atque consectetur eius pariatur voluptate voluptas vitae, nihil quibusdam architecto dolor! Consequatur vero reprehenderit facilis omnis enim! Voluptate enim eligendi accusantium.</p>
-
-        <h3>Article Two</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci atque consectetur eius pariatur voluptate voluptas vitae, nihil quibusdam architecto dolor! Consequatur vero reprehenderit facilis omnis enim! Voluptate enim eligendi accusantium.</p>
-
-        <h3>Article Three</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci atque consectetur eius pariatur voluptate voluptas vitae, nihil quibusdam architecto dolor! Consequatur vero reprehenderit facilis omnis enim! Voluptate enim eligendi accusantium.</p>
-      </div>
-
-      <div>
-        <h3 id="contact">Contact Us</h3>
+        <h2 id="about">About Us</h2>
         <p><strong>Address:</strong> Edang St.</p>
         <p><strong>Phone:</strong> 555-555-555</p>
         <p><strong>Email:</strong> email@email.com</p>
+      <div>
+    </section><hr>
+
+    <section>
+      <div>
+        <h3 id="services">Our Services</h3>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Goals</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci atque consectetur eius pariatur voluptate voluptas vitae, nihil quibusdam architecto dolor! Consequatur vero reprehenderit facilis omnis enim! Voluptate enim eligendi accusantium.</p>
+      </div>
+    </section><hr>
+    
+    <section>
+      <div>
+        <h3 id="contact">Contact Us</h3>
+        <form action="#">
+          <div>
+            <label for="text">Name:</label><br>
+            <input type="text" name="name" placeholder="Name">
+          </div><br>
+
+          <div>
+            <label for="email">Email:</label><br>
+            <input type="text" name="email" placeholder="email@email.com">
+          </div>
+
+          <div>
+            <label for="message">Message:</label><br>
+            <textarea name="message" cols="40" rows="5"></textarea>
+          </div><br>
+
+          <div>
+            <label for="sex">Sex:</label>
+            <select name="sex">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </div><br>
+
+          <div>
+            <label for="age">Age:</label>
+            <input type="number" name="age">
+          </div><br>
+
+          <div>
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" name="date">
+          </div><br>
+
+          <div>
+            <label for="page">Do you like the page?</label>
+            <input type="radio" name="yes"> Yes
+            <input type="radio" name="no"> No
+          </div><br>
+
+          <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+          </div><br>
+        </form>
       </div>
     </section>
 
     <a href="#">Go back to home page..</a>
-  </main>
 
+  </main><hr>
 
-  <hr>
   <footer>
     <p>Copyright &copy; My Website 2022</p>
   </footer>
+
 </body>
 </html>
